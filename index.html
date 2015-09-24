@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="logindemo">
+<head>
+    <title>Login Component</title>	    
+	<script src="bower_components/angular/angular.min.js"></script>
+</head>
+<body >
+    <div ng-controller="loginController">     
+		<p></p>
+		<p>User Name : <input type="text" ng-model="username"></p>
+		<p>Password : <input type="password" ng-model="password"></p>
+		<input type="submit" ng-click="checkLogin();" value="Login" ></input>		
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
